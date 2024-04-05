@@ -1,0 +1,74 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .picture {
+    width: 35%;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .Text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+  
+  .logo {
+    display: flex;
+    border: 2px solid #dcb00f9a; /* Add border to the logo container */
+    padding: 10px; /* Optional: Add padding inside the border */
+    border-radius: 30px;
+    background-color: #dcb00f9a;
+  }
+
+  .LIN {
+    color: #dcb00f9a;
+    font-family: "Bungee Spice", sans-serif;
+    margin-left: 0em;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    -webkit-text-stroke: 0.01875em #dcb00f9a;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0.03093592em 0.03093592em 0em #dcb00f9a;
+}
+  .jpeg {
+    border-radius: 20px;
+    padding: 5px;
+}
+  .logo img {
+    margin-right: 10px;
+    width: 100px;
+    filter: invert(1)
+  }
+  
+  .code {
+    color: #dcb00f9a;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .logo img {
+      width: 50px;
+    }
+    .code {
+      font-size: 10px;
+    }
+    .Text{
+        padding: 20px;
+    }
+  }
+  
